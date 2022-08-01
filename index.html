@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media_query.css" />
+    <script src="js/index.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <div class="logo">Portfo<span>lio.</span></div>
+        <ul class="head-container">   
+          <i class="fa-solid fa-xmark" id="cross"></i>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+       
+        </ul>
+        
+        <i class="fa-solid fa-bars" id="hamburger"></i>
+      </nav>
+      </header>
+
+      <main>
+      
+        <section class="home" id="home">
+          <div class="max-width">
+            <div class="home-content">
+              <div class="text-1">Hello, my name is</div>
+              <div class="text-2">Rohit kothari</div>
+              <div class="text-3">
+                And I'm a <span class="typing">Developer</span>
+              </div>
+              <a href="#contact" class="btn">Hire me</a>
+            </div>
+          </div>
+        </section>
+        <section class="aboutMe" id="about">
+          <h2 class="about-text">About Me</h2>
+          <div class="aboutSection">
+            <img src="./img/about.png" alt="" width="400px" />
+            <div class="info">
+              <h3>I am Rohit kothari <span class="typing">Developer</span></h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+                quo. Quibusdam magnam esse accusamus vero nemo laborum,
+                recusandae atque sit odit dolorem quod. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Culpa quas facere amet magni
+                omnis voluptatem itaque, ut porro eaque aperiam rerum temporibus
+                eum et consectetur, corrupti ab odit aut suscipit. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Asperiores
+                inventore eaque praesentium! Quos, necessitatibus perspiciatis
+                nobis dolorem expedita vel itaque fugiat magni quam. At
+                assumenda nisi sequi vero dignissimos ex.
+              </p>
+              <a href="https://drive.google.com/file/d/12tuAo9yo8p3t2vBgpAa_TUkYQ7yOn8W2/view?usp=sharing" target="_blank" class="btn">DownLoad CV</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="service-section" id="service">
+          <h1 class="service-text">My Services</h1>
+          <div class="service">
+            <div class="fullstack box">
+              <h2>Fullstack Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                quam facere maiores sequi sunt eum architecto aspernatur? Natus
+                quis alias exercitationem, facere libero ut neque quisquam
+                tempore assumenda tempora ea.
+              </p>
+            </div>
+            <div class="frontend box">
+              <h2>Frontend Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                dolorum nisi itaque qui! Blanditiis necessitatibus voluptas iste
+                laudantium reprehenderit provident nihil porro unde quisquam
+                veritatis sunt nam adipisci, earum dolore.
+              </p>
+            </div>
+            <div class="Backend box">
+              <h2>Backend Developer</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+                exercitationem explicabo voluptatum excepturi tempora dicta
+                sunt. Error id voluptate delectus architecto excepturi velit,
+                nemo, inventore facilis labore accusantium mollitia
+                necessitatibus!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills" id="skill">
+          <h1>My skills</h1>
+          <div class="skill-container">
+            <div class="skill-info">
+              <h2>My creative skills</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                alias laboriosam vel ex natus, laudantium voluptatibus at
+                commodi! Officia aliquam aliquid earum ex eos placeat, fugiat
+                minus omnis dicta vitae?
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="table">
+              <div class="html load1">
+                <span>HTML</span>
+                <span>95%</span>
+                <div class="line"></div>
+              </div>
+              <div class="css load1">
+                <span>CSS</span>
+                <span>75%</span>
+                <div class="line"></div>
+              </div>
+
+              <div class="Javascript load1">
+                <span>JAVA SCRIPT</span>
+                <span>65%</span>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="project" id="project">
+          <h1>Projects</h1>
+
+          <div class="project-container">
+            <div class="box project1">
+              <h2>Simple Calculator</h2>
+              <img src="./img/31.png" width="170px" alt="" />
+              <a href="https://github.com/Rohitkothari618/Calculator" target="_blank" class="btn">Visit here</a>
+            </div>
+            <div class="box project2">
+              <h2>Number guess</h2>
+              <img src="./img/1.png" alt="" width="150px" />
+              <a href="https://github.com/Rohitkothari618/Guess-a-number-game" target="_blank" class="btn">Visit here</a>
+            </div>
+            <div class="box project3">
+              <h2>Snake Game</h2>
+              <img src="./img/21.png" width="150px" alt="" />
+              <a href="https://github.com/Rohitkothari618/Stop-watch" target="_blank" class="btn">Visit here</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <h1>Contact Me</h1>
+
+          <div class="contact-container">
+            <div class="myInfo">
+              <h2>Get in touch</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Officiis, distinctio. Ipsa asperiores saepe consequuntur
+                officiis doloremque sapiente, qui nam? Beatae, amet dolorum a
+                facilis vero vel. Temporibus labore nesciunt dolores.
+              </p>
+              <div class="lines name">
+                <h3>Name:</h3>
+                <p>Rohit Kothari</p>
+              </div>
+              <div class="lines Email">
+                <h3>Email:</h3>
+                <p>rohitkothari618@gmail.com</p>
+              </div>
+              <div class="lines Address">
+                <h3>Address:</h3>
+                <p>Bohara ganesh ,udaipur city</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <h3>Please fill the form</h3>
+              <div class="form-container">
+                <input type="text " placeholder="Enter your name" />
+                <input type="email" placeholder="Enter your email" />
+                <input type="text" placeholder="Enter your message" />
+                <a href="#" class="btn">Send message</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <h2>All Copyright &#169 reserved by   @rohitkothari618.</h2>
+
+        </div>
+      </footer>
+   
+  </body>
+</html>
